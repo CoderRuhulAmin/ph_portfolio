@@ -31,6 +31,16 @@ body{
 .section{
     padding-top: 130px;
 }
+.container{
+    width: 71%;
+    /* max-width: 1140px; */
+    margin: 0 auto;
+}
+ p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
 .section_heading{
     max-width: 827px;
     text-align: center;
@@ -55,9 +65,6 @@ header{
     padding-top: 50px;
 }
 nav{
-    width: 71%;
-    /* max-width: 1140px; */
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,9 +121,6 @@ nav{
 .about{
 
     .about_container{
-        width: 71%;
-        /* max-width: 1140px; */
-        margin: 0 auto;
         text-align: center;
         background-color: #FFF8F3;
         padding: 131px 156px;
@@ -142,9 +146,6 @@ nav{
 .skills{
 
     .skill_container{
-        width: 71%;
-        /* max-width: 1140px; */
-        margin: 0 auto;
         background-color: #FFFFFF;
     }
 
@@ -167,8 +168,6 @@ nav{
                 margin-bottom: 20px;
             }
             p{
-                font-size: 16px;
-                line-height: 28px;
                 color: #757575;
             }
         }
@@ -194,8 +193,6 @@ nav{
     color: #757575;
 }
 .card_text{
-    font-size: 16px;
-    line-height: 28px;
     color: #757575;
 }
 .resume_card{
@@ -209,9 +206,7 @@ nav{
 .resume{
     
     .resume_container{
-        width: 71%;
-        /* max-width: 1140px; */
-        margin: 100px auto 0;
+        margin-top: 100px;
         background-color: #FFFFFF;
         display: flex;
         gap: 22px;
@@ -231,9 +226,6 @@ nav{
     padding: 130px 0;
 
     .footer_container{
-        width: 71%;
-        /* max-width: 1140px; */
-        margin: 0 auto;
         display: flex;
         gap: 116px;
 
@@ -246,10 +238,8 @@ nav{
             max-width: 562px;
 
             p{
-                font-size: 16px;
-                line-height: 28px;
-                margin-bottom: 30px;
                 color: #474747;
+                margin-bottom: 30px;
             }
             .icons{
                 a{
